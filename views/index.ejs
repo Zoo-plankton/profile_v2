@@ -1,0 +1,133 @@
+<% include ./partials/header.ejs %>
+
+<div class="bg">
+</div>
+
+<div class="main">
+  <!-- <div class="header">
+    <h1>Zack Hann</h1>
+    <p>Designer // Developer</p>
+  </div> -->
+
+  <div class="palette">
+    <!-- Color One - Welcome -->
+
+    <div class="color color-one">
+      <div class="label">
+        <p class="hex">#d1f5be</p>
+        <p class="title">Welcome</p>
+      </div>
+    </div>
+    <div class="welcome info color-one">
+      <div class="inner-head">
+        <h1>ZACK<br>HANN</h1>
+        <p>Designer // Developer</p>
+      </div>
+      <div class="rule"></div>
+      <div class="inner-info">
+        <p class="quote"><em>"Design adds clarity ... Like life itself, design can win a small victory against the entropy of the universe, creating pockets of order from the raw materials of chaos."</em></p>
+        <p class="quote-source">- Jeremy Keith, <em><a href="https://resilientwebdesign.com/" target="_blank">Resilient Web Design</a></em></p>
+
+      </div>
+    </div>
+
+  <!-- Color Two - About Me -->
+
+    <div class="color color-two">
+      <div class="label">
+        <p class="hex">#9cde9f</p>
+        <p class="title">About</p>
+      </div>
+    </div>
+
+    <div class="about info color-two">
+      <div class="inner-head inset-shadow">
+        <div class="head-overlay"></div>
+      </div>
+      <div class="inner-info">
+        <h1>Hi! I'm Zack...</h2>
+        <div class="rule"></div>
+        <p>I'm a 31-year-old self-taught web developer located in the Atlanta area. I have full-stack capabilites, but my passion lies in creating a web experience that looks good & <em>feels</em> good, too!</p>
+        <p>As a proud dad & a gamer, I feel at home at a tea party or with a d20 in hand. I also enjoy any frisbee-based activity (especially with a dash of beer!).
+      </div>
+    </div>
+
+  <!-- Color Three - Skills -->
+
+    <div id="skills" class="color color-three">
+      <div class="label">
+        <p class="hex">#9db17c</p>
+        <p class="title">Skills</p>
+      </div>
+    </div>
+
+    <div class="skills info color-three">
+      <% include ./partials/skills.ejs %>
+    </div>
+
+  <!-- Color Four - Projects -->
+
+    <div id="projects" class="color color-four">
+      <div class="label">
+        <p class="hex">#82735c</p>
+        <p class="title">Projects</p>
+      </div>
+    </div>
+
+    <div class="projects info color-four">
+      <% include partials/projects.ejs %>
+    </div>
+
+  <!-- Color Five - Contact -->
+
+    <div class="color color-five">
+      <div class="label">
+        <p class="hex">#4b3b40</p>
+        <p class="title">Contact</p>
+      </div>
+    </div>
+
+    <div class="contact info color-five">
+        <form action="/" method="POST">
+          <div class="form-left">
+            <div class="form-name">
+              <input class="light-inset-shadow" type="text" name="form-name" value="" autocomplete="off" required>
+              <label for="">Name</label>
+            </div>
+            <div class="form-email">
+              <input class="light-inset-shadow" type="email" name="form-email" value="" autocomplete="off" required>
+              <label for="">E-mail</label>
+            </div>
+            <div class="form-body">
+              <textarea class="light-inset-shadow" name="form-body" rows="4" cols="25" autocomplete="off" required></textarea>
+              <label for="">Message</label>
+            </div>
+          </div>
+          <div class="rule"></div>
+          <div class="form-right">
+            <h1>Let's get <br>in touch...</h1>
+            <button type="submit">Submit</button>
+            <div class="links">
+              <a href="https://github.com/Zoo-plankton" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://www.linkedin.com/in/zackhann/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/zhann1" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            </div>
+          </div>
+        </form>
+    </div>
+  </div>
+  <!-- End of Palette -->
+  <div class="theme-name">
+    <p class="number">#1</p>
+    <p class="name">Pistachio</p>
+  </div>
+  <div class="theme-nav">
+    <p class="left nav"><<</p>
+    <p class="dice"><i id="dice-btn" class="fas fa-dice-six"></i></p>
+    <p class="right nav">>></p>
+  </div>
+
+</div>
+
+
+<% include ./partials/footer.ejs %>

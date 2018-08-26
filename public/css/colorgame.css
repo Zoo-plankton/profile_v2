@@ -1,0 +1,71 @@
+body {
+	background: #464646;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.square {
+	width: 30%;
+	float: left;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background .25s;
+	-webkit-transition: background .25s;
+	-moz-transition: background .25s;
+}
+
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	background: linear-gradient(to bottom right, #e4e8ef, #aaaeb7);
+	margin: 0;
+	text-transform: uppercase;
+	line-height: 1.25;
+	padding: 20px 0;
+}
+
+button {
+	border: none;
+	background: none;
+	height: 100%;
+	font-family: 'Ubuntu';
+	font-weight: 500;
+	font-size: 120%;
+	color: steelblue;
+	letter-spacing: 1px;
+	transition: all .25s;
+	-webkit-transition: all .25s;
+	-moz-transition: all .25s;
+	outline: none;
+}
+
+button:hover {
+	background-color: steelblue;
+	color: white;
+}
+
+#message {
+	display: inline-block;
+	width: 18%;
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+#bar {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected {
+	background-color: steelblue;
+	color: white;
+}

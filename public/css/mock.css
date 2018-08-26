@@ -1,0 +1,46 @@
+:root {
+  /* Background colors */
+  --c1: #01121A;
+  --c2: #a8ecdb;
+  --c3: #e3cddd;
+  --c4: #a0d2de;
+  --c5: #455964;
+}
+
+.mock-container {
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: -50px -50px 200px 100px rgba(1,1,1, .15);
+}
+
+.mock-container p {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  margin:0;
+  text-align: center;
+}
+
+.mock-container a:link, .mock-container a:visited {
+  color: #011E30;
+}
+
+.mock {
+  height: 523px;
+  width: 930px;
+  overflow:auto;
+  margin-bottom: 0;
+}
+
+.mock img {
+  width: 912px;
+}
+
+.pen {
+  width: 530px;
+  min-height: 635px;
+  box-shadow: -50px -50px 200px 100px rgba(1,1,1, .15);
+}

@@ -1,0 +1,118 @@
+const themes = [
+  {
+    name: 'Undefined',
+    colors:['#f9f2fc', '#b1aeb7', '#7c7177', '#3f3838','#0e0011'],
+    text: [1,2,3,4,1],
+    accent:[1,0,1,2,3],
+  },
+  {
+    name: 'Pistachio',
+    colors:['#d1f5be', '#9cde9f', '#9db17c', '#82735c','#4b3b40'],
+    text: [3,3,3,4,2],
+    accent:[2,0,1,2,3],
+  },
+  {
+    name: 'Stormy Beach',
+    colors:['#454349', '#6e7681', '#999089','#d6dbe7', '#7f8f81'],
+    text: [3,3,3,1,0],
+    accent:[2,0,1,1,3],
+  },
+  {
+    name: 'Quack',
+    colors:['#f4e792', '#fcfcfc', '#54f2f2', '#5eb1bf','#3b5354'],
+    text: [1,3,4,1,3],
+    accent:[3,0,1,4,1],
+  },
+  {
+    name: 'Sorbet',
+    colors:['#ffffff', '#ff5964', '#ffe74c', '#6bf178', '#35a7ff'],
+    text: [1,0,1,0,0],
+    accent:[2,2,0,0,0],
+  },
+  {
+    name: 'Dusk',
+    colors:['#a990c6', '#514663', '#4d5382', '#658e9c', '#8cba96'],
+    text: [1,3,4,1,2],
+    accent:[2,0,0,2,3],
+  },
+  {
+    name: 'Bonfire',
+    colors:[ '#E2C284', '#F08C38', '#DA5728' , '#675734', '#3D313C' ],
+    text: [2,3,0,0,0],
+    accent:[3,2,1,4,3],
+  },
+  {
+    name: 'Flamingo',
+    colors:[ '#ec058e', '#10110f', '#30332e' , '#ede8e9', '#62bbc1'],
+    text: [3,3,3,2,2],
+    accent:[2,4,0,0,3],
+  },
+  {
+    name: 'Heroes',
+    colors:['#f9f2fc', '#eac944', '#9e9e9e', '#36393b', '#0c120c'],
+    text: [2,3,4,0,2],
+    accent:[1,0,0,4,1],
+  },
+  {
+    name: 'Moxie',
+    colors:[ '#151716', '#78523d', '#c2ae9a', '#b9734b  ', '#aa5523'],
+    text: [2,2,1,2,2],
+    accent:[1,0,4,4,3],
+  },
+  {
+    name: 'Brunch',
+    colors:[ '#4b6573','#ffcf9e' , '#f1e7d6', '#f7f7f7', '#d8e4ce',],
+    text: [1,0,0,0,0],
+    accent:[3,2,3,2,3],
+  },
+  {
+    name: 'Dirt Co.',
+    colors:[ '#D6DFE6', '#263e0f' , '#583D2A', '#79563A', '#B9855D',],
+    text: [3,0,0,0,0],
+    accent:[1,3,3,4,3],
+  },
+  {
+    name: 'Slapshot',
+    colors:[ '#1E2629', '#c94040' , '#dedee3', '#f4f3f7', '#636bdd',],
+    text: [2,3,1,4,3],
+    accent:[1,0,0,2,2],
+  },
+  {
+    name: 'Longboard',
+    colors:[ '#E0E8D6', '#DCB694' , '#5D9798', '#444C5A', '#29262D',],
+    text: [2,0,3,0,1],
+    accent:[1,2,0,4,3],
+  },
+  {
+    name: 'Blood & Thunder',
+    colors:[ '#a39961', '#896554' , '#821f16', '#400E07', '#180604',],
+    text: [2,3,4,1,1],
+    accent:[1,2,3,2,3],
+  },
+  {
+    name: 'Sangria',
+    colors:[ '#FCCC82', '#62915a', '#F0982E', '#a52c3e', '#544056',],
+    text: [3,0,3,0,0],
+    accent:[2,4,0,2,1],
+  },
+  {
+    name: 'Bee',
+    colors:[ '#336699','#f7d488', '#eafdf8', '#c0fdfb','#49dcb1'],
+    text: [2,0,0,0,2],
+    accent:[3,3,4,3,3],
+  },
+  {
+    name: 'Smog',
+    colors:[ '#f1e0c5','#c9b79c','#71816d', '#464655','#342a21'],
+    text: [3,3,3,1,1],
+    accent:[1,0,0,2,2],
+  },
+  {
+    name: 'Clementine',
+    colors:['#a0dcc9','#8cd8b2','#f1ebca','#fcddbb','#fca769'],
+    text: [2,2,1,4,2],
+    accent:[3,0,4,2,3],
+  },
+];
+
+// Balance (taz), Stall Nine, space cadet,

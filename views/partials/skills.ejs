@@ -1,0 +1,33 @@
+<div class="skill-container">
+
+  <div class="wrapper-a wrapper">
+    <ul class="skill-info-container">
+      <% skills.forEach(function(skill){ %>
+        <li class="skill-info"><%- skill.desc %></li>
+        <% }) %>
+    </ul>
+    <h1>What can I do for you?</h1>
+  </div>
+
+  <div class="skill-nav">
+    <p class="skill-nav-up"><i class="fas fa-caret-up"></i></p>
+    <p class="skill-nav-down"><i class="fas fa-caret-down"></i></p>
+  </div>
+
+  <div id="skill-progress" class="rule">
+    <div id="indicator"></div>
+  </div>
+
+  <div class="wrapper-b wrapper">
+    <ul class="skill-img-container">
+      <% skills.forEach(function(skill){ %>
+        <li class="img-group">
+          <% skill.img.forEach(function(img){ %>
+            <img src="<%= img %>" alt="" class="skill-img">
+          <% }) %>
+        </li>
+        <% }) %>
+      </ul>
+  </div>
+
+</div>

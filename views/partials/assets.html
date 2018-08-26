@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="/css/assets.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+
+<!-- Fonts -->
+
+
+<!-- BUTTONS -->
+<div class="box">
+  <h1 class="title">Animated Buttons</h1>
+  <button class="primary">Primary</button>
+  <button class="warning">Warning</button>
+  <button class="danger">Danger</button>
+  <button class="primary" disabled>Disabled</button>
+</div>
+
+<!-- SEARCH -->
+<div class="box">
+  <h1 class="title">Expanding Search Bar</h1>
+  <form>
+    <div class="search-bar">
+      <input class="search-field" type="text" placeholder="Search">
+      <button type="button" class="search-button"><i class="fas fa-search"></i></button>
+    </div>
+  </form>
+</div>
+
+<!-- TOGGLE -->
+<div class="box">
+  <h1 class="title">Toggle</h1>
+  <div class="toggle-container">
+    <div class="radios">
+      <div>
+        <input type="radio" id="primary" name="radio" value="#40d6b0" checked="checked">
+        <span class="radio"></span>
+        <label for="primary">Primary</label>
+      </div>
+      <div>
+        <input type="radio" id="warning" name="radio" value="#e4572e">
+        <span class="radio"></span>
+        <label for="warning">Warning</label>
+      </div>
+      <div>
+        <input type="radio" id="danger" name="radio" value="#e0236c">
+        <span class="radio"></span>
+        <label for="danger">Danger</label>
+      </div>
+    </div>
+    <div class="toggle">
+      <div class="slider">
+        <div class="toggle-bg">
+          <span class="switch"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- REGISTER FORM -->
+<div class="box">
+  <h1 class="title">3-D Registration Form</h1>
+  <button class="primary sign-up">Sign Up</button>
+</div>
+
+<div class="great-job">
+   <h1><i class="far fa-check-circle"></i></h1>
+</div>
+
+<div class="modal">
+  <form action="" class="register-box">
+    <div class="name-form">
+      <div>
+        <label for="first-name">First Name</label>
+        <input id="first-name" type="text" class="first-name" placeholder="Angus"  onkeyup="checkName()" required>
+      </div>
+      <div>
+        <label for="last-name">Last Name</label>
+        <input id="last-name" type="text" class="last-name" placeholder="McDonald"  onkeyup="checkName()" required>
+      </div>
+      <div>
+        <label for="email">E-mail</label>
+        <input id="email" type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$" class="email" placeholder="boydetective@bob.gov" onkeyup="checkName()" required>
+      </div>
+      <button type="button" class="next primary">Next <i class="fas fa-caret-right"></i></button>
+    </div>
+    <div class="password-form">
+      <h1 class="full-name"></h1>
+      <p class="full-email"></p>
+      <div>
+        <label for="password">Password</label>
+        <input id="password" class="password" type="password" autocomplete="off" minlength="6" onkeyup="comparePassword()" placeholder="Minimum of 6 characters" required>
+      </div>
+      <div>
+        <label for="re-password" >Retype Password</label>
+        <input type="password" id="re-password" class="re-password" type="text" onkeyup="comparePassword()" required>
+      </div>
+      <button type="button" class="warning prev"><i class="fas fa-caret-left"></i> Back</button>
+      <button type="button" class="submit primary">Submit</button>
+    </div>
+  </form>
+</div>
+
+<script src="/js/assets.js">
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<div class="wrapper wrapper-c inset-shadow">
+  <ul class="project-image-container">
+    <% projects.forEach(function(project){ %>
+      <li>
+        <a href="<%= project.link %>" target="_blank">
+          <div class="project-image" style="background-image: url(<%= project.img %>)"></div>
+        </a>
+      </li>
+    <% }) %>
+  </ul>
+  <div class="head-overlay"></div>
+</div>
+
+
+
+<div class="wrapper wrapper-d">
+  <ul>
+    <% projects.forEach(function(project){ %>
+      <li>
+        <h1 class="project-title"><%= project.title %></h1>
+        <div class="project-rule"></div>
+        <p class="project-desc"><%= project.description %></p>
+      </li>
+    <% }) %>
+  </ul>
+</div>
+
+<div class="project-nav">
+  <p class="project-nav-up"><i class="fas fa-caret-up"></i></p>
+  <p class="project-nav-down"><i class="fas fa-caret-down"></i></p>
+</div>
