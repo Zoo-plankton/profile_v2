@@ -61,6 +61,7 @@ strong {
 }
 
 .skill-nav p {
+  z-index:20;
   opacity: .35;
 }
 
