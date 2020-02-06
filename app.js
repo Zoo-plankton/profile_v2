@@ -12,7 +12,7 @@ app.set("view engine","ejs");
 app.use(express.static(__dirname + '/public'));
 
 let transporter = nodemailer.createTransport({
-  service: 'gmail',
+  service: 'Gmail',
   auth: {
     user: process.env.USER,
     pass: process.env.PASSWORD
