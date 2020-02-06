@@ -24,7 +24,7 @@
 body {
   margin:0;
   background-color:#555;
-  background-image: url('../img/exclusive-paper.png');
+  /* background-image: url('../img/exclusive-paper.png'); */
   /* overflow: hidden; */
 }
 
@@ -106,7 +106,7 @@ body {
   align-self: flex-end;
   z-index:0;
   margin-top: 0px;
-  background-image: url('../img/otis-redding.png');
+  /* background-image: url('../img/otis-redding.png'); */
   display:flex;
   justify-content: space-around;
   align-items: center;
