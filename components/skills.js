@@ -19,10 +19,10 @@ var skills = [
     img:["/img/logos/photoshop.png", "/img/logos/premiere.png"],
     desc:"Extensive experience with the <strong>Adobe Creative Suite</strong> to create & edit still & moving images. I can chop audio, too!",
   },
-  {
-    img:["/img/logos/vue.png", "/img/logos/postgres.png"],
-    desc:"I believe the desire to learn is important not only to those in the tech industry, but to everyone everywhere! I'm currently working to add <strong>Vuejs</strong> & <strong>PostgreSQL</strong> to my list.",
-  },
+  // {
+  //   img:["/img/logos/vue.png", "/img/logos/postgres.png"],
+  //   desc:"I believe the desire to learn is important not only to those in the tech industry, but to everyone everywhere! I'm currently working to add <strong>Vuejs</strong> & <strong>PostgreSQL</strong> to my list.",
+  // },
 ];
 
 module.exports = skills;

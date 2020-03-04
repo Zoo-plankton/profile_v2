@@ -1,4 +1,4 @@
-const express    = require('express'),
+const express  = require('express'),
     bodyParser = require('body-parser'),
     nodemailer = require('nodemailer'),
     dotenv     = require('dotenv'),
@@ -12,11 +12,13 @@ app.set("view engine","ejs");
 app.use(express.static(__dirname + '/public'));
 
 let transporter = nodemailer.createTransport({
-  service: 'Gmail',
+  service: 'gmail',
+  secure: true,
   auth: {
     user: process.env.USER,
     pass: process.env.PASSWORD
-  }
+  },
+  logger: true,
 });
 
 app.get("/", function(req,res){
